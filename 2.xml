@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE store [
+<!ELEMENT store (section, shelf, product, price)>
+<!ELEMENT section (#PCDATA)>
+<!ELEMENT shelf (#PCDATA)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+
+<store>
+    <section>1</section>
+        <shelf>Zeszyty</shelf>
+            <product>Zeszyt A5</product>
+                <price>5.00</price>
+            <product>Zeszyt A4</product>
+                <price>10.00</price>
+         <shelf>Dlugopisy</shelf>
+            <product>Kugelpisak</product>
+                <price>3.00</price>
+    <section>2</section>
+        <shelf>Warzywa</shelf>
+            <product>Ogorek</product>
+                <price>2.00</price>
+</store>
